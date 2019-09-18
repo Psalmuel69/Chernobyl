@@ -78,6 +78,7 @@ input[type=text], input[type=password] {
   background: #B69E87;
   border: 2px solid #B69;
   border-radius: 5px;
+  margin-top: 30px;
   
   
 }
@@ -90,24 +91,24 @@ input[type=text], input[type=password] {
 }
 
 .createAccount {
-  background-color: white;
+  background: white;
   border: 2px solid #B69;
   border-radius: 5px;
   color: #555;
   margin-top: 30px;
-  padding: 0 10px;
-  width: 276px;
+  width: 297px;
   height: 34px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 14px;
+  font-weight: bold;
   text-shadow: 0 1px #B69E87;
   }
+
   .createAccount:active {
   background: #B69E87;
   border-color: #B69;
   -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
   box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
 }
-
